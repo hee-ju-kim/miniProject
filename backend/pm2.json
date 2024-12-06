@@ -1,0 +1,20 @@
+{
+  "apps": [
+    {
+      "name": "Practice",
+      "script": "backend.js",
+      "watch": true,
+      "ignore_watch" : [
+        "node_modules",
+        "package-lock.json",
+        ".gitignore",
+        "package.json",
+        "README.md",
+        "sessions"
+      ],
+      "env": {
+        "NODE_ENV": "hj"
+      }
+    }
+  ]
+}
